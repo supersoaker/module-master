@@ -1,0 +1,326 @@
+.blue-line {
+  color: #fff;
+  background: none repeat scroll 0 0 #5a7e8d;
+  display: block;
+  height: 1px;
+  margin: 0 auto;
+  width: 28%;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+section {
+  padding: 70px 0 80px;
+}
+#home {
+  background-repeat: no-repeat;
+  background-size: contain;
+  -webkit-background-size: contain;
+  -o-background-size: contain;
+  -ms-background-size: contain;
+  -moz-background-size: contain;
+  background-color: #88b1a8;
+  max-height: 800px;
+  padding: 1em 0;
+  position: relative;
+}
+#home .logo {
+  float: left;
+}
+#home .menu {
+  float: right;
+  margin-top: 3em;
+}
+#home .menu .menu-top {
+  float: left;
+}
+#home .menu .menu-top li {
+  display: inline-block;
+  margin: 0 10px;
+}
+#home .menu .menu-top li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+#home .menu .menu-top button.navig {
+  width: 24px;
+  height: 24px;
+  background: url('images/nav.png');
+  display: block;
+  outline: none;
+  border: 0;
+  float: left;
+  margin: -5px 10px;
+}
+#home .header-bottom {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#home .header-bottom p,
+#home .header-bottom em {
+  font-style: italic;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 35px;
+  font-family: Times;
+  margin: 0px;
+  padding: 0px;
+}
+#home .header-bottom p.reward,
+#home .header-bottom em.reward {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #fff;
+  font-size: 16px;
+  font-style: inherit;
+  padding: 2em 0;
+}
+#home .header-bottom h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 100px;
+  padding: 0px;
+  margin: 0 0 15px 0;
+}
+#home .arrow {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: 0px;
+  cursor: pointer;
+  font-size: 50px;
+}
+@media (max-width: 992px) {
+  #home .arrow {
+    display: none;
+  }
+}
+#home .arrow a {
+  color: #FFFFFF;
+}
+@media (min-width: 1450px) {
+  #home {
+    background-position: center bottom;
+  }
+}
+@media (min-width: 1024px) {
+  #home {
+    background-size: 100%;
+  }
+}
+@media (max-width: 992px) {
+  #home .header-bottom h1 {
+    font-size: 80px;
+  }
+  #home .header-bottom a.link-button {
+    padding: 10px 35px;
+  }
+  #home .header-bottom p.reward {
+    padding: 5px 0;
+  }
+}
+@media (max-width: 640px) {
+  #home .header-bottom h1 {
+    font-size: 60px;
+  }
+  #home .header-bottom a.link-button {
+    padding: 5px 25px;
+  }
+  #home .header-bottom p.reward {
+    padding: 10px 0;
+  }
+}
+@media (max-width: 480px) {
+  #home .logo {
+    display: none;
+  }
+  #home .menu {
+    display: none;
+  }
+  #home .header-bottom h1 {
+    margin: 0;
+  }
+  #home .header-bottom p.reward,
+  #home .header-bottom a.link-button {
+    display: none;
+  }
+}
+#about .row .col-md-4 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+#about .row .col-md-4 i.fa {
+  font-size: 50px;
+}
+#about .row .col-md-4 h3 {
+  padding: 15px 0 10px;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+  color: #000;
+}
+#about .row .col-md-4 p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 10px;
+}
+#login-manager-project {
+  background-color: #92b6bd;
+}
+#login-manager-project .col-md-8 {
+  padding-bottom: 30px;
+}
+#login-manager-project .col-md-8 i {
+  margin: 10px 0;
+}
+#login-manager-project .col-md-8 em {
+  color: #4d6880;
+  border: none;
+}
+#login-manager-project .col-md-8 p > em {
+  border: none;
+}
+#herbstzeit-project .link-button {
+  border: 2px solid #163035;
+  color: #163035;
+}
+#herbstzeit-project .col-md-4 {
+  margin-top: 40px;
+}
+img {
+  max-width: 100%;
+}
+#geisterfahrer-project {
+  background-color: #71959c;
+}
+#geisterfahrer-project .col-md-8 {
+  padding-bottom: 30px;
+}
+#geisterfahrer-project .col-md-8 em {
+  color: #E9E9E9;
+  border: none;
+}
+#geisterfahrer-project .col-md-8 p > em {
+  border: none;
+}
+#projects .link-button {
+  border: 2px solid #163035;
+  color: #163035;
+}
+#projects .col-md-12 {
+  text-align: center;
+}
+hr {
+  border-top: 1px solid #2f4462;
+  margin: 10px 0;
+}
+#contact {
+  padding-top: 0;
+  background-color: #282F35;
+  background-position: 22% 4%;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+#contact h3 {
+  color: white;
+  margin: 50px 0 30px;
+}
+#contact input,
+#contact textarea {
+  width: 100%;
+  padding: 0.8em;
+  background: none repeat scroll 0% 0% #1E2429;
+  border-width: 2px medium medium;
+  border-style: solid none none;
+  border-color: #1E2429;
+  outline: medium none;
+  transition: border 0.5s ease 0s;
+  color: #94989B;
+  font-size: 1em;
+}
+#contact input:focus,
+#contact textarea:focus {
+  border-color: #c3dab8;
+}
+#contact textarea {
+  resize: vertical;
+}
+#contact .link-button:hover,
+#contact .link-button:focus {
+  color: #fff;
+  border: 2px solid #fff;
+}
+nav {
+  position: fixed;
+  right: 30px;
+  margin-top: 30px;
+  width: 225px;
+  z-index: 3;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+nav a {
+  color: #163035;
+  font-size: 20px;
+  float: right;
+}
+nav a i {
+  margin: 0 10px;
+}
+a:hover,
+a:focus {
+  color: inherit;
+}
+.full-width-row {
+  margin: 30px 0;
+}
+h3 {
+  margin: 15px 0;
+}
+.link-button {
+  background: none;
+  padding: 15px 40px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+  border: 2px solid #fff;
+  display: inline-block;
+}
+.link-button:hover,
+.link-button:focus {
+  border: 2px solid #163035;
+  color: #163035;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.projects .row .col-md-4 {
+  text-align: center;
+}
+.projects .row .col-md-8 em {
+  font-style: normal;
+  border-bottom: 1px solid cornflowerblue;
+}

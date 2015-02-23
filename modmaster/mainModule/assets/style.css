@@ -1,0 +1,355 @@
+/* line 1, http://localhost/_github/supermarlon/web/css/newstyle.less */
+.blue-line {
+    background: none repeat scroll 0 0 #5a7e8d;
+    display: block;
+    height: 1px;
+    margin: 0 auto;
+    width: 28%;
+}
+/* line 19, http://localhost/_github/supermarlon/web/css/newstyle.less */
+body {
+    font-family: "Open Sans", sans-serif;
+}
+/* line 22, http://localhost/_github/supermarlon/web/css/newstyle.less */
+section {
+    padding: 70px 0 80px;
+}
+/* line 25, http://localhost/_github/supermarlon/web/css/newstyle.less */
+#home {
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-background-size: contain;
+    -o-background-size: contain;
+    -ms-background-size: contain;
+    -moz-background-size: contain;
+    max-height: 800px;
+    padding: 1em 0;
+    position: relative;
+}
+/* line 35, http://localhost/_github/supermarlon/web/css/newstyle.less */
+#home .logo {
+    float: left;
+}
+/* line 38, http://localhost/_github/supermarlon/web/css/newstyle.less */
+#home .menu {
+    float: right;
+    margin-top: 3em;
+}
+/* line 41, http://localhost/_github/supermarlon/web/css/newstyle.less */
+#home .menu .menu-top {
+    float: left;
+}
+/* line 43, http://localhost/_github/supermarlon/web/css/newstyle.less */
+#home .menu .menu-top li {
+    display: inline-block;
+    margin: 0 10px;
+}
+/* line 46, http://localhost/_github/supermarlon/web/css/newstyle.less */
+#home .menu .menu-top li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+/* line 55, http://localhost/_github/supermarlon/web/css/newstyle.less */
+#home .menu .menu-top button.navig {
+    width: 24px;
+    height: 24px;
+    background: url(http://localhost/_github/supermarlon/web/css/images/nav.png);
+    display: block;
+    outline: none;
+    border: 0;
+    float: left;
+    margin: -5px 10px;
+}
+/* line 68, http://localhost/_github/supermarlon/web/css/newstyle.less */
+#home .header-bottom {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+/* line 79, http://localhost/_github/supermarlon/web/css/newstyle.less */
+#home .header-bottom p {
+    font-style: italic;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 2.5em;
+    font-family: Times;
+    margin: 0px;
+    padding: 0px;
+}
+/* line 87, http://localhost/_github/supermarlon/web/css/newstyle.less */
+#home .header-bottom p.reward {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    font-size: 16px;
+    font-style: inherit;
+    padding: 2em 0;
+}
+/* line 96, http://localhost/_github/supermarlon/web/css/newstyle.less */
+#home .header-bottom h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 100px;
+    padding: 0px;
+    margin: 0 0 15px 0;
+}
+/* line 105, http://localhost/_github/supermarlon/web/css/newstyle.less */
+#home .arrow {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: 0px;
+    cursor: pointer;
+    font-size: 50px;
+}
+@media (max-width: 992px) {
+    /* line 106, http://localhost/_github/supermarlon/web/css/newstyle.less */
+    #home .arrow {
+        display: none;
+    }
+}
+/* line 119, http://localhost/_github/supermarlon/web/css/newstyle.less */
+#home .arrow a {
+    color: #FFFFFF;
+}
+@media (min-width: 1450px) {
+    /* line 123, http://localhost/_github/supermarlon/web/css/newstyle.less */
+    #home {
+        background-position: center bottom;
+    }
+}
+@media (min-width: 1024px) {
+    /* line 126, http://localhost/_github/supermarlon/web/css/newstyle.less */
+    #home {
+        background-size: 100%;
+    }
+}
+@media (max-width: 992px) {
+    /* line 131, http://localhost/_github/supermarlon/web/css/newstyle.less */
+    #home .header-bottom h1 {
+        font-size: 80px;
+    }
+    /* line 134, http://localhost/_github/supermarlon/web/css/newstyle.less */
+    #home .header-bottom a.link-button {
+        padding: 10px 35px;
+    }
+    /* line 137, http://localhost/_github/supermarlon/web/css/newstyle.less */
+    #home .header-bottom p.reward {
+        padding: 5px 0;
+    }
+}
+@media (max-width: 640px) {
+    /* line 144, http://localhost/_github/supermarlon/web/css/newstyle.less */
+    #home .header-bottom h1 {
+        font-size: 60px;
+    }
+    /* line 147, http://localhost/_github/supermarlon/web/css/newstyle.less */
+    #home .header-bottom a.link-button {
+        padding: 5px 25px;
+    }
+    /* line 150, http://localhost/_github/supermarlon/web/css/newstyle.less */
+    #home .header-bottom p.reward {
+        padding: 10px 0;
+    }
+}
+@media (max-width: 480px) {
+    /* line 156, http://localhost/_github/supermarlon/web/css/newstyle.less */
+    #home .logo {
+        display: none;
+    }
+    /* line 159, http://localhost/_github/supermarlon/web/css/newstyle.less */
+    #home .menu {
+        display: none;
+    }
+    /* line 163, http://localhost/_github/supermarlon/web/css/newstyle.less */
+    #home .header-bottom h1 {
+        margin: 0;
+    }
+    /* line 166, http://localhost/_github/supermarlon/web/css/newstyle.less */
+    #home .header-bottom p.reward,
+    #home .header-bottom a.link-button {
+        display: none;
+    }
+}
+/* line 176, http://localhost/_github/supermarlon/web/css/newstyle.less */
+#about .row .col-md-4 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+/* line 179, http://localhost/_github/supermarlon/web/css/newstyle.less */
+#about .row .col-md-4 i.fa {
+    font-size: 50px;
+}
+/* line 182, http://localhost/_github/supermarlon/web/css/newstyle.less */
+#about .row .col-md-4 h3 {
+    padding: 15px 0 10px;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+}
+/* line 191, http://localhost/_github/supermarlon/web/css/newstyle.less */
+#about .row .col-md-4 p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+}
+/* line 201, http://localhost/_github/supermarlon/web/css/newstyle.less */
+#login-manager-project {
+    background-color: #92b6bd;
+}
+/* line 206, http://localhost/_github/supermarlon/web/css/newstyle.less */
+#login-manager-project .col-md-8 {
+    padding-bottom: 30px;
+}
+/* line 208, http://localhost/_github/supermarlon/web/css/newstyle.less */
+#login-manager-project .col-md-8 i {
+    margin: 10px 0;
+}
+/* line 211, http://localhost/_github/supermarlon/web/css/newstyle.less */
+#login-manager-project .col-md-8 em {
+    color: #4d6880;
+    border: none;
+}
+/* line 216, http://localhost/_github/supermarlon/web/css/newstyle.less */
+#login-manager-project .col-md-8 p > em {
+    border: none;
+}
+/* line 223, http://localhost/_github/supermarlon/web/css/newstyle.less */
+#herbstzeit-project .link-button {
+    border: 2px solid #163035;
+    color: #163035;
+}
+/* line 227, http://localhost/_github/supermarlon/web/css/newstyle.less */
+#herbstzeit-project .col-md-4 {
+    margin-top: 40px;
+}
+/* line 234, http://localhost/_github/supermarlon/web/css/newstyle.less */
+img {
+    max-width: 100%;
+}
+/* line 238, http://localhost/_github/supermarlon/web/css/newstyle.less */
+#geisterfahrer-project {
+    background-color: #71959c;
+}
+/* line 248, http://localhost/_github/supermarlon/web/css/newstyle.less */
+#geisterfahrer-project .col-md-8 {
+    padding-bottom: 30px;
+}
+/* line 250, http://localhost/_github/supermarlon/web/css/newstyle.less */
+#geisterfahrer-project .col-md-8 em {
+    color: #E9E9E9;
+    border: none;
+}
+/* line 254, http://localhost/_github/supermarlon/web/css/newstyle.less */
+#geisterfahrer-project .col-md-8 p > em {
+    border: none;
+}
+/* line 261, http://localhost/_github/supermarlon/web/css/newstyle.less */
+#projects .link-button {
+    border: 2px solid #163035;
+    color: #163035;
+}
+/* line 265, http://localhost/_github/supermarlon/web/css/newstyle.less */
+#projects .col-md-12 {
+    text-align: center;
+}
+/* line 270, http://localhost/_github/supermarlon/web/css/newstyle.less */
+hr {
+    border-top: 1px solid #2f4462;
+    margin: 10px 0;
+}
+/* line 274, http://localhost/_github/supermarlon/web/css/newstyle.less */
+#contact {
+    padding-top: 0;
+    background-color: #282F35;
+    background-position: 22% 4%;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+/* line 280, http://localhost/_github/supermarlon/web/css/newstyle.less */
+#contact h3 {
+    color: white;
+    margin: 50px 0 30px;
+}
+/* line 284, http://localhost/_github/supermarlon/web/css/newstyle.less */
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 0.8em;
+    background: none repeat scroll 0% 0% #1E2429;
+    border-width: 2px medium medium;
+    border-style: solid none none;
+    border-color: #1E2429;
+    outline: medium none;
+    transition: border 0.5s ease 0s;
+    color: #94989B;
+    font-size: 1em;
+}
+/* line 296, http://localhost/_github/supermarlon/web/css/newstyle.less */
+#contact input:focus,
+#contact textarea:focus {
+    border-color: #c3dab8;
+}
+/* line 301, http://localhost/_github/supermarlon/web/css/newstyle.less */
+#contact textarea {
+    resize: vertical;
+}
+/* line 304, http://localhost/_github/supermarlon/web/css/newstyle.less */
+#contact .link-button:hover,
+#contact .link-button:focus {
+    color: #fff;
+    border: 2px solid #fff;
+}
+/* line 318, http://localhost/_github/supermarlon/web/css/newstyle.less */
+nav {
+    position: fixed;
+    right: 30px;
+    margin-top: 30px;
+    width: 225px;
+    z-index: 3;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+/* line 327, http://localhost/_github/supermarlon/web/css/newstyle.less */
+nav a {
+    color: #163035;
+    font-size: 20px;
+    float: right;
+}
+/* line 332, http://localhost/_github/supermarlon/web/css/newstyle.less */
+nav a i {
+    margin: 0 10px;
+}
+/* line 337, http://localhost/_github/supermarlon/web/css/newstyle.less */
+a:hover,
+a:focus {
+    color: inherit;
+}
+/* line 341, http://localhost/_github/supermarlon/web/css/newstyle.less */
+.full-width-row {
+    margin: 30px 0;
+}
+/* line 344, http://localhost/_github/supermarlon/web/css/newstyle.less */
+h3 {
+    margin: 15px 0;
+}
+/* line 348, http:/…
