@@ -13,7 +13,7 @@ class Modmaster {
     /**
      * @var string - the config file for the module order
      */
-    public static $CONFIGFILE   = "modmaster.ini";
+    public static $CONFIGFILE   = "modmaster/modmaster.ini";
 
     /**
      * @param {String} $dirPath
@@ -81,7 +81,7 @@ class Modmaster {
     private function getModuleOrder() {
         $modules = array();
         try {
-            $data = parse_ini_file( self::$MODMASTERDIR . DIRECTORY_SEPARATOR . self::$CONFIGFILE );
+            $data = parse_ini_file( self::$CONFIGFILE );
             $modules = $data['modules'];
         } catch(Exception $e) {
             $modules = scandir(self::$MODMASTERDIR);
